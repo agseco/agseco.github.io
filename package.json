@@ -2,7 +2,8 @@
   "name": "agseco.github.io",
   "version": "1.0.0",
   "scripts": {
-    "pdf": "node pdf.js"
+    "pdf": "node pdf.js",
+    "pub": "yarn pdf && git add . && git commit -m \"CV updated 🎉\""
   },
   "dependencies": {
     "markdown-pdf": "^10.0.0"
